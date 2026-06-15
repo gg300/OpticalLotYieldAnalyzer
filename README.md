@@ -8,7 +8,7 @@ After the run, it produces a yield report including overall pass rate, a Pareto 
 
 ## Architecture highlights
 
-- Reuses the `IInstrument` / `ITestStep` abstractions from the original test station project
+- Reuses the `ITestStep` abstractions from the original test station project
 - Product-specific test limits and nominal values are externalized to JSON, supporting multiple products with different specs (NPI through end-of-life)
 - Statistical analysis (mean, standard deviation, Cpk) implemented from first principles
 - Pareto-style failure mode reporting to highlight where process variation concentrates
