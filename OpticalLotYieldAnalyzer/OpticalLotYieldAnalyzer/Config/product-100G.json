@@ -1,0 +1,46 @@
+{
+  "ProductId": "OPT-XCVR-100G",
+  "LotSize": 75,
+  "Parameters": {
+    "Power": {
+      "Nominal": -1.5,
+      "StdDev": 0.4,
+      "DefectRate": 0.05,
+      "Min": -3.0,
+      "Max": 0.0,
+      "Unit": "dBm"
+    },
+    "Wavelength": {
+      "Nominal": 1550.00,
+      "StdDev": 0.03,
+      "DefectRate": 0.04,
+      "Min": 1549.90,
+      "Max": 1550.10,
+      "Unit": "nm"
+    },
+    "Osnr": {
+      "Nominal": 38.0,
+      "StdDev": 1.0,
+      "DefectRate": 0.03,
+      "Min": 34.0,
+      "Max": null,
+      "Unit": "dB"
+    },
+    "BiasCurrent": {
+      "Nominal": 72.0,
+      "StdDev": 5.5,
+      "DefectRate": 0.06,
+      "Min": null,
+      "Max": 85.0,
+      "Unit": "mA"
+    },
+    "Temperature": {
+      "Nominal": 45.0,
+      "StdDev": 3.0,
+      "DefectRate": 0.02,
+      "Min": 35.0,
+      "Max": 55.0,
+      "Unit": "°C"
+    }
+  }
+}

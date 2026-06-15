@@ -1,0 +1,38 @@
+{
+  "ProductId": "OPT-XCVR-400G",
+  "LotSize": 50,
+  "Parameters": {
+    "Power": {
+      "Nominal": -4.0,
+      "StdDev": 0.5,
+      "DefectRate": 0.06,
+      "Min": -6.0,
+      "Max": -2.0,
+      "Unit": "dBm"
+    },
+    "Wavelength": {
+      "Nominal": 1310.00,
+      "StdDev": 0.02,
+      "DefectRate": 0.05,
+      "Min": 1309.95,
+      "Max": 1310.05,
+      "Unit": "nm"
+    },
+    "Osnr": {
+      "Nominal": 35.0,
+      "StdDev": 1.2,
+      "DefectRate": 0.05,
+      "Min": 32.0,
+      "Max": null,
+      "Unit": "dB"
+    },
+    "BiasCurrent": {
+      "Nominal": 60.0,
+      "StdDev": 6.0,
+      "DefectRate": 0.04,
+      "Min": null,
+      "Max": 75.0,
+      "Unit": "mA"
+    }
+  }
+}
